@@ -10,19 +10,19 @@ reviews:
   auto_review:
     enabled: true
     drafts: false
-  file_path_instructions:
+  path_instructions:
     - path: "**/*.tsx"
       instructions: |
-      Review:
-        - Unnecessary renders.
-        - Incorrect usage of global state.
-        - Big components that are not reusable.
-        - Incorrect usage of asynchronous functions.
-        - Excessive usage of external dependencies.
-        - Lack of loading resource optimization.
-        - Absence of tests.
-        - Excessive dependency of component state.
-        - Wrong handling of components life cycles.
-        - Components should not have more than 25 lines of code.
-chat: 
+        Review:
+          - Unnecessary renders.
+          - Incorrect usage of global state.
+          - Big components that are not reusable.
+          - Incorrect usage of asynchronous functions.
+          - Excessive usage of external dependencies.
+          - Lack of loading resource optimization.
+          - Absence of tests.
+          - Excessive dependency of component state.
+          - Wrong handling of components life cycles.
+          - Components should not have more than 25 lines of code.
+chat:
   auto_reply: true
