@@ -1,28 +1,9 @@
 language: "es-AR"
 early_access: false
 reviews:
-  profile: "chill"
-  request_changes_workflow: false
-  high_level_summary: true
-  poem: false
-  review_status: true
-  collapse_walkthrough: false
-  auto_review:
-    enabled: true
-    drafts: false
   path_instructions:
     - path: "**/*.tsx"
       instructions: |
-        Review:
-          - Unnecessary renders.
-          - Incorrect usage of global state.
-          - Big components that are not reusable.
-          - Incorrect usage of asynchronous functions.
-          - Excessive usage of external dependencies.
-          - Lack of loading resource optimization.
-          - Absence of tests.
-          - Excessive dependency of component state.
-          - Wrong handling of components life cycles.
-          - Components should not have more than 25 lines of code.
+        The files should not be longer than 20 lines.
 chat:
   auto_reply: true
