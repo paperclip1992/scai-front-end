@@ -23,5 +23,6 @@ reviews:
         - Absence of tests.
         - Excessive dependency of component state.
         - Wrong handling of components life cycles.
+        - Components should not have more than 25 lines of code.
 chat: 
   auto_reply: true
