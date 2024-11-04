@@ -1,0 +1,27 @@
+language: "es-AR"
+early_access: false
+reviews:
+  profile: "chill"
+  request_changes_workflow: false
+  high_level_summary: true
+  poem: true
+  review_status: true
+  collapse_walkthrough: false
+  auto_review:
+    enabled: true
+    drafts: false
+  file_path_instructions:
+    - path: "*"
+      instructions: |
+      Review:
+        - Unnecessary renders.
+        - Incorrect usage of global state.
+        - Big components that are not reusable.
+        - Incorrect usage of asynchronous functions.
+        - Excessive usage of external dependencies.
+        - Lack of loading resource optimization.
+        - Absence of tests.
+        - Excessive dependency of component state.
+        - Wrong handling of components life cycles.
+chat: 
+  auto_reply: true
