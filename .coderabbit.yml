@@ -1,0 +1,9 @@
+language: "es-AR"
+early_access: false
+reviews:
+  path_instructions:
+    - path: "**/*.tsx"
+      instructions: |
+        The files should not be longer than 20 lines.
+chat:
+  auto_reply: true
